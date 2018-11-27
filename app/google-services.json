@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "890949741627",
+    "firebase_url": "https://my-diet-app-faf17.firebaseio.com",
+    "project_id": "my-diet-app-faf17",
+    "storage_bucket": "my-diet-app-faf17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890949741627:android:9fb202527d0882b5",
+        "android_client_info": {
+          "package_name": "com.app.honpaul.mydiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890949741627-od3ki6aaoifeetpc7v5qvji40p28ci1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfkG9HtWAfrzxY5Hvzyordr3mcc3HkiZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

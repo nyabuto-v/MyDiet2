@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">890949741627-od3ki6aaoifeetpc7v5qvji40p28ci1i.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://my-diet-app-faf17.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">890949741627</string>
+    <string name="google_api_key" translatable="false">AIzaSyAfkG9HtWAfrzxY5Hvzyordr3mcc3HkiZ4</string>
+    <string name="google_app_id" translatable="false">1:890949741627:android:9fb202527d0882b5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAfkG9HtWAfrzxY5Hvzyordr3mcc3HkiZ4</string>
+    <string name="google_storage_bucket" translatable="false">my-diet-app-faf17.appspot.com</string>
+    <string name="project_id" translatable="false">my-diet-app-faf17</string>
+</resources>
