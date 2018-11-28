@@ -30,10 +30,10 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int notification_action_color_filter = 0x7f040049;
-        public static final int notification_icon_bg_color = 0x7f04004a;
-        public static final int ripple_material_light = 0x7f040055;
-        public static final int secondary_text_default_material_light = 0x7f040057;
+        public static final int notification_action_color_filter = 0x7f040055;
+        public static final int notification_icon_bg_color = 0x7f040056;
+        public static final int ripple_material_light = 0x7f040061;
+        public static final int secondary_text_default_material_light = 0x7f040063;
     }
     public static final class dimen {
         private dimen() {}
@@ -113,12 +113,12 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int notification_action = 0x7f09001c;
-        public static final int notification_action_tombstone = 0x7f09001d;
-        public static final int notification_template_custom_big = 0x7f090024;
-        public static final int notification_template_icon_group = 0x7f090025;
-        public static final int notification_template_part_chronometer = 0x7f090029;
-        public static final int notification_template_part_time = 0x7f09002a;
+        public static final int notification_action = 0x7f09001d;
+        public static final int notification_action_tombstone = 0x7f09001e;
+        public static final int notification_template_custom_big = 0x7f090025;
+        public static final int notification_template_icon_group = 0x7f090026;
+        public static final int notification_template_part_chronometer = 0x7f09002a;
+        public static final int notification_template_part_time = 0x7f09002b;
     }
     public static final class string {
         private string() {}

@@ -374,12 +374,18 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bg_login
+color bg_main
+color bg_register
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color btn_login
+color btn_login_bg
+color btn_logout_bg
 color button_material_dark
 color button_material_light
 color colorAccent
@@ -405,6 +411,12 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color input_login
+color input_login_hint
+color input_register
+color input_register_bg
+color input_register_hint
+color lbl_name
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -442,6 +454,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -863,6 +876,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_signup
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

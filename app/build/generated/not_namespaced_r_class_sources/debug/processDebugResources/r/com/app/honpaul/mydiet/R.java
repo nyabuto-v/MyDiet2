@@ -1741,7 +1741,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -2723,74 +2723,87 @@ public final class R {
     public static final int background_floating_material_light=0x7f04001b;
     public static final int background_material_dark=0x7f04001c;
     public static final int background_material_light=0x7f04001d;
-    public static final int bright_foreground_disabled_material_dark=0x7f04001e;
-    public static final int bright_foreground_disabled_material_light=0x7f04001f;
-    public static final int bright_foreground_inverse_material_dark=0x7f040020;
-    public static final int bright_foreground_inverse_material_light=0x7f040021;
-    public static final int bright_foreground_material_dark=0x7f040022;
-    public static final int bright_foreground_material_light=0x7f040023;
-    public static final int button_material_dark=0x7f040024;
-    public static final int button_material_light=0x7f040025;
-    public static final int colorAccent=0x7f040026;
-    public static final int colorPrimary=0x7f040027;
-    public static final int colorPrimaryDark=0x7f040028;
-    public static final int common_google_signin_btn_text_dark=0x7f040029;
-    public static final int common_google_signin_btn_text_dark_default=0x7f04002a;
-    public static final int common_google_signin_btn_text_dark_disabled=0x7f04002b;
-    public static final int common_google_signin_btn_text_dark_focused=0x7f04002c;
-    public static final int common_google_signin_btn_text_dark_pressed=0x7f04002d;
-    public static final int common_google_signin_btn_text_light=0x7f04002e;
-    public static final int common_google_signin_btn_text_light_default=0x7f04002f;
-    public static final int common_google_signin_btn_text_light_disabled=0x7f040030;
-    public static final int common_google_signin_btn_text_light_focused=0x7f040031;
-    public static final int common_google_signin_btn_text_light_pressed=0x7f040032;
-    public static final int common_google_signin_btn_tint=0x7f040033;
-    public static final int dim_foreground_disabled_material_dark=0x7f040034;
-    public static final int dim_foreground_disabled_material_light=0x7f040035;
-    public static final int dim_foreground_material_dark=0x7f040036;
-    public static final int dim_foreground_material_light=0x7f040037;
-    public static final int error_color_material=0x7f040038;
-    public static final int foreground_material_dark=0x7f040039;
-    public static final int foreground_material_light=0x7f04003a;
-    public static final int highlighted_text_material_dark=0x7f04003b;
-    public static final int highlighted_text_material_light=0x7f04003c;
-    public static final int material_blue_grey_800=0x7f04003d;
-    public static final int material_blue_grey_900=0x7f04003e;
-    public static final int material_blue_grey_950=0x7f04003f;
-    public static final int material_deep_teal_200=0x7f040040;
-    public static final int material_deep_teal_500=0x7f040041;
-    public static final int material_grey_100=0x7f040042;
-    public static final int material_grey_300=0x7f040043;
-    public static final int material_grey_50=0x7f040044;
-    public static final int material_grey_600=0x7f040045;
-    public static final int material_grey_800=0x7f040046;
-    public static final int material_grey_850=0x7f040047;
-    public static final int material_grey_900=0x7f040048;
-    public static final int notification_action_color_filter=0x7f040049;
-    public static final int notification_icon_bg_color=0x7f04004a;
-    public static final int notification_material_background_media_default_color=0x7f04004b;
-    public static final int primary_dark_material_dark=0x7f04004c;
-    public static final int primary_dark_material_light=0x7f04004d;
-    public static final int primary_material_dark=0x7f04004e;
-    public static final int primary_material_light=0x7f04004f;
-    public static final int primary_text_default_material_dark=0x7f040050;
-    public static final int primary_text_default_material_light=0x7f040051;
-    public static final int primary_text_disabled_material_dark=0x7f040052;
-    public static final int primary_text_disabled_material_light=0x7f040053;
-    public static final int ripple_material_dark=0x7f040054;
-    public static final int ripple_material_light=0x7f040055;
-    public static final int secondary_text_default_material_dark=0x7f040056;
-    public static final int secondary_text_default_material_light=0x7f040057;
-    public static final int secondary_text_disabled_material_dark=0x7f040058;
-    public static final int secondary_text_disabled_material_light=0x7f040059;
-    public static final int switch_thumb_disabled_material_dark=0x7f04005a;
-    public static final int switch_thumb_disabled_material_light=0x7f04005b;
-    public static final int switch_thumb_material_dark=0x7f04005c;
-    public static final int switch_thumb_material_light=0x7f04005d;
-    public static final int switch_thumb_normal_material_dark=0x7f04005e;
-    public static final int switch_thumb_normal_material_light=0x7f04005f;
-    public static final int tooltip_background_dark=0x7f040060;
-    public static final int tooltip_background_light=0x7f040061;
+    public static final int bg_login=0x7f04001e;
+    public static final int bg_main=0x7f04001f;
+    public static final int bg_register=0x7f040020;
+    public static final int bright_foreground_disabled_material_dark=0x7f040021;
+    public static final int bright_foreground_disabled_material_light=0x7f040022;
+    public static final int bright_foreground_inverse_material_dark=0x7f040023;
+    public static final int bright_foreground_inverse_material_light=0x7f040024;
+    public static final int bright_foreground_material_dark=0x7f040025;
+    public static final int bright_foreground_material_light=0x7f040026;
+    public static final int btn_login=0x7f040027;
+    public static final int btn_login_bg=0x7f040028;
+    public static final int btn_logout_bg=0x7f040029;
+    public static final int button_material_dark=0x7f04002a;
+    public static final int button_material_light=0x7f04002b;
+    public static final int colorAccent=0x7f04002c;
+    public static final int colorPrimary=0x7f04002d;
+    public static final int colorPrimaryDark=0x7f04002e;
+    public static final int common_google_signin_btn_text_dark=0x7f04002f;
+    public static final int common_google_signin_btn_text_dark_default=0x7f040030;
+    public static final int common_google_signin_btn_text_dark_disabled=0x7f040031;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f040032;
+    public static final int common_google_signin_btn_text_dark_pressed=0x7f040033;
+    public static final int common_google_signin_btn_text_light=0x7f040034;
+    public static final int common_google_signin_btn_text_light_default=0x7f040035;
+    public static final int common_google_signin_btn_text_light_disabled=0x7f040036;
+    public static final int common_google_signin_btn_text_light_focused=0x7f040037;
+    public static final int common_google_signin_btn_text_light_pressed=0x7f040038;
+    public static final int common_google_signin_btn_tint=0x7f040039;
+    public static final int dim_foreground_disabled_material_dark=0x7f04003a;
+    public static final int dim_foreground_disabled_material_light=0x7f04003b;
+    public static final int dim_foreground_material_dark=0x7f04003c;
+    public static final int dim_foreground_material_light=0x7f04003d;
+    public static final int error_color_material=0x7f04003e;
+    public static final int foreground_material_dark=0x7f04003f;
+    public static final int foreground_material_light=0x7f040040;
+    public static final int highlighted_text_material_dark=0x7f040041;
+    public static final int highlighted_text_material_light=0x7f040042;
+    public static final int input_login=0x7f040043;
+    public static final int input_login_hint=0x7f040044;
+    public static final int input_register=0x7f040045;
+    public static final int input_register_bg=0x7f040046;
+    public static final int input_register_hint=0x7f040047;
+    public static final int lbl_name=0x7f040048;
+    public static final int material_blue_grey_800=0x7f040049;
+    public static final int material_blue_grey_900=0x7f04004a;
+    public static final int material_blue_grey_950=0x7f04004b;
+    public static final int material_deep_teal_200=0x7f04004c;
+    public static final int material_deep_teal_500=0x7f04004d;
+    public static final int material_grey_100=0x7f04004e;
+    public static final int material_grey_300=0x7f04004f;
+    public static final int material_grey_50=0x7f040050;
+    public static final int material_grey_600=0x7f040051;
+    public static final int material_grey_800=0x7f040052;
+    public static final int material_grey_850=0x7f040053;
+    public static final int material_grey_900=0x7f040054;
+    public static final int notification_action_color_filter=0x7f040055;
+    public static final int notification_icon_bg_color=0x7f040056;
+    public static final int notification_material_background_media_default_color=0x7f040057;
+    public static final int primary_dark_material_dark=0x7f040058;
+    public static final int primary_dark_material_light=0x7f040059;
+    public static final int primary_material_dark=0x7f04005a;
+    public static final int primary_material_light=0x7f04005b;
+    public static final int primary_text_default_material_dark=0x7f04005c;
+    public static final int primary_text_default_material_light=0x7f04005d;
+    public static final int primary_text_disabled_material_dark=0x7f04005e;
+    public static final int primary_text_disabled_material_light=0x7f04005f;
+    public static final int ripple_material_dark=0x7f040060;
+    public static final int ripple_material_light=0x7f040061;
+    public static final int secondary_text_default_material_dark=0x7f040062;
+    public static final int secondary_text_default_material_light=0x7f040063;
+    public static final int secondary_text_disabled_material_dark=0x7f040064;
+    public static final int secondary_text_disabled_material_light=0x7f040065;
+    public static final int switch_thumb_disabled_material_dark=0x7f040066;
+    public static final int switch_thumb_disabled_material_light=0x7f040067;
+    public static final int switch_thumb_material_dark=0x7f040068;
+    public static final int switch_thumb_material_light=0x7f040069;
+    public static final int switch_thumb_normal_material_dark=0x7f04006a;
+    public static final int switch_thumb_normal_material_light=0x7f04006b;
+    public static final int tooltip_background_dark=0x7f04006c;
+    public static final int tooltip_background_light=0x7f04006d;
+    public static final int white=0x7f04006e;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f050000;
@@ -3222,25 +3235,26 @@ public final class R {
     public static final int abc_select_dialog_material=0x7f090019;
     public static final int abc_tooltip=0x7f09001a;
     public static final int activity_main=0x7f09001b;
-    public static final int notification_action=0x7f09001c;
-    public static final int notification_action_tombstone=0x7f09001d;
-    public static final int notification_media_action=0x7f09001e;
-    public static final int notification_media_cancel_action=0x7f09001f;
-    public static final int notification_template_big_media=0x7f090020;
-    public static final int notification_template_big_media_custom=0x7f090021;
-    public static final int notification_template_big_media_narrow=0x7f090022;
-    public static final int notification_template_big_media_narrow_custom=0x7f090023;
-    public static final int notification_template_custom_big=0x7f090024;
-    public static final int notification_template_icon_group=0x7f090025;
-    public static final int notification_template_lines_media=0x7f090026;
-    public static final int notification_template_media=0x7f090027;
-    public static final int notification_template_media_custom=0x7f090028;
-    public static final int notification_template_part_chronometer=0x7f090029;
-    public static final int notification_template_part_time=0x7f09002a;
-    public static final int select_dialog_item_material=0x7f09002b;
-    public static final int select_dialog_multichoice_material=0x7f09002c;
-    public static final int select_dialog_singlechoice_material=0x7f09002d;
-    public static final int support_simple_spinner_dropdown_item=0x7f09002e;
+    public static final int activity_signup=0x7f09001c;
+    public static final int notification_action=0x7f09001d;
+    public static final int notification_action_tombstone=0x7f09001e;
+    public static final int notification_media_action=0x7f09001f;
+    public static final int notification_media_cancel_action=0x7f090020;
+    public static final int notification_template_big_media=0x7f090021;
+    public static final int notification_template_big_media_custom=0x7f090022;
+    public static final int notification_template_big_media_narrow=0x7f090023;
+    public static final int notification_template_big_media_narrow_custom=0x7f090024;
+    public static final int notification_template_custom_big=0x7f090025;
+    public static final int notification_template_icon_group=0x7f090026;
+    public static final int notification_template_lines_media=0x7f090027;
+    public static final int notification_template_media=0x7f090028;
+    public static final int notification_template_media_custom=0x7f090029;
+    public static final int notification_template_part_chronometer=0x7f09002a;
+    public static final int notification_template_part_time=0x7f09002b;
+    public static final int select_dialog_item_material=0x7f09002c;
+    public static final int select_dialog_multichoice_material=0x7f09002d;
+    public static final int select_dialog_singlechoice_material=0x7f09002e;
+    public static final int support_simple_spinner_dropdown_item=0x7f09002f;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;
@@ -7764,7 +7778,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>

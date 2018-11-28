@@ -552,6 +552,10 @@
         "source": "C:\\Users\\Hon Paul\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b0ac1e56ff8416be4fdf711d860ae9a2\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Hon Paul\\AndroidStudioProjects\\MyDiet2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Hon Paul\\AndroidStudioProjects\\MyDiet2\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
         "merged": "C:\\Users\\Hon Paul\\AndroidStudioProjects\\MyDiet2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Hon Paul\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b0ac1e56ff8416be4fdf711d860ae9a2\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
